@@ -3,9 +3,8 @@
  * 抓包 Host: https://shopapi.skycolorful.com 找到并获取请求头 Authorization 和 X-Authorization
  * Authorization 和 X-Authorization 用 # 分割
  * Authorization 必须在第一位，有顺序要求
- * 例：export COLORFUL_TOKEN='Authorization#X-Authorization'
+ * export COLORFUL_TOKEN='Authorization#X-Authorization'
  * 多账号用 & 或换行
- * export COLORFUL_TOKEN="xxxxx"
  *
  * @author Telegram@sudojia
  * @site https://blog.imzjw.cn
