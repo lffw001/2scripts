@@ -29,8 +29,8 @@ body:
       label: '🌐 网络自检'
       description: 服务器是否能正常 Ping 通脚本对应的网站
       options:
-        - 是
         - 否
+        - 是
     validations:
       required: true
 
