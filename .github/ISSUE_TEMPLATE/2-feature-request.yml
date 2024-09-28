@@ -1,6 +1,6 @@
 name: '🚀功能请求'
 description: '使用此模板来提交一个功能请求🚀'
-title: ''
+title: '请输入标题'
 labels: [ '🚀功能请求' ]
 body:
   - type: dropdown

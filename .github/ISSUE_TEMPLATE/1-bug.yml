@@ -1,6 +1,6 @@
 name: '🐞Bug 提交'
 description: '使用此模板来提交一个 Bug🐞'
-title: ''
+title: '请输入标题'
 labels: [ '🐞Bug' ]
 body:
   - type: textarea
