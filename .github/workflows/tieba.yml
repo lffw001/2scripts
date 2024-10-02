@@ -31,7 +31,7 @@ jobs:
 
       - name: Start running the script
         run: |
-          node sudojia_tieba.js
+          node src/web/sudojia_tieba.js
         env:
           TIE_BA_COOKIE: ${{ secrets.TIE_BA_COOKIE }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
