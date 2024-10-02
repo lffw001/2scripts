@@ -1,26 +1,27 @@
 {
-  "name": "sudojia",
+  "name": "autotaskscript",
   "version": "1.0.0",
-  "description": "{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}",
+  "description": "A script project based on the daily sign-in automation task of Qinglong panel",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sudojia/scripts.git"
+    "url": "https://github.com/sudojia/AutoTaskScript.git"
   },
   "keywords": [
-    "签到,脚本"
+    "签到,脚本,自动化"
   ],
   "author": "sudojia",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "dependencies": {
     "axios": "^1.6.8",
     "cheerio": "^1.0.0-rc.12",
     "download": "^8.0.0",
     "got": "^11.8.3",
     "http-server": "^0.12.3",
+    "init-sudojia": "^1.0.0",
     "moment": "^2.30.1",
     "tough-cookie": "^4.0.0",
     "tunnel": "0.0.6",
