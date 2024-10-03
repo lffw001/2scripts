@@ -2,7 +2,7 @@
  * 霸王茶姬-茶友社区
  * #小程序://茶友社区/Z9I4YUjB4GtqYny
  *
- * 抓包 URL：https://community.bwcj.com 获取请求头 Authorization
+ * 抓包 Host：https://community.bwcj.com 获取请求头 Authorization
  * export BW_TEA_COM_TOKEN = 'eyJhbGxxxxxxxxxxxxxxx'
  * 多账号用 & 或换行
  *
