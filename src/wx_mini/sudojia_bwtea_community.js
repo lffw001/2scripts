@@ -8,8 +8,7 @@
  *
  * @author Telegram@sudojia
  * @site https://blog.imzjw.cn
- * @date 2024/06/15
- * @lastUpdate 2024/08/29
+ * @date 2024/10/03
  *
  * const $ = new Env('茶友社区')
  * cron: 53 11 * * *
