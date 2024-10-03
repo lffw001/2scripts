@@ -34,6 +34,26 @@
 3. [【UCloud】开年上云，国外服务器2C4G30M新用户一年只需140，国内2C2G4M一年只需59](https://www.ucloud.cn/site/active/kuaijiesale.html?invitation_code=C1xF794E400C078)
 4. [【华为云】普惠上云专区限时秒杀：2核2G2M，最低38/年](https://activity.huaweicloud.com/discount_area_v5/index.html)
 
+## 🗃项目架构
+
+```markdown
+/AutoTaskScript
+├── src
+│   ├── client
+│   │   └── 存放客户端类
+│   ├── public
+│   │   └── 存放公众号类
+│   ├── web
+│   │   └── 存放网页类
+│   ├── wx_mini
+│   │   └── 存放小程序类
+│   ├── other
+│   │   └── 存放辅助类，例如检测账号失效等
+│   └── utils
+│       └── 存放通用工具类
+└── README.md
+```
+
 ## ⚠️免责声明
 
 - 本仓库发布的 AutoTaskScript 项目中涉及的解锁解密分析脚本仅用于测试、学习和研究，禁止用于商业目的。 其合法性、准确性、完整性和有效性无法得到保证。 请根据实际情况作出自己的判断。
