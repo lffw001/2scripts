@@ -19,7 +19,7 @@ RUN git clone ${REPO_URL} /AutoTaskScript \
         && npm install \
         && git checkout script \
         && cd src \
-        && mkdir logs \
+        && mkdir logs
 
 RUN cp /AutoTaskScript/docker/docker_entrypoint.sh /usr/local/bin \
         && chmod +x /usr/local/bin/docker_entrypoint.sh
