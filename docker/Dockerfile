@@ -2,7 +2,7 @@ FROM alpine
 
 LABEL AUTHOR="Akira <e.akimoto.akira@gmail.com>" \
         VERSION=1.0.0 \
-        UPDATE_CONTENT="参考了 Akira 和 lxk 的 Dockerfile，在此感谢！"
+        UPDATE_CONTENT="参考了 Akira 和 lxk 的 Dockerfile"
 
 ENV DEFAULT_LIST_FILE=crontab_list.sh \
         CUSTOM_LIST_MERGE_TYPE=append \
