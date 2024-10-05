@@ -31,7 +31,7 @@ jobs:
 
       - name: Start running the script
         run: |
-          node sudojia_botanyStar.js
+          node src/wx_mini/sudojia_botanyStar.js
         env:
           BOTANY_ACCOUNT: ${{ secrets.BOTANY_ACCOUNT }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}

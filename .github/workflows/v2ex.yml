@@ -31,7 +31,7 @@ jobs:
 
       - name: Start running the script
         run: |
-          node sudojia_v2ex.js
+          node src/web/sudojia_v2ex.js
         env:
           V2EX_COOKIE: ${{ secrets.V2EX_COOKIE }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}

@@ -31,7 +31,7 @@ jobs:
 
       - name: Start running the script
         run: |
-          node sudojia_laoban.js
+          node src/wx_mini/sudojia_laoban.js
         env:
           LAOBAN_OPENID: ${{ secrets.LAOBAN_OPENID }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
